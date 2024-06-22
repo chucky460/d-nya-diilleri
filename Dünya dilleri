@@ -89,3 +89,70 @@
     <source src="ses-dosyalarının-yolu/hello.mp3" type="audio/mpeg">
     Tarayıcınız ses dosyasını desteklemiyor.
 </audio>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanka'nın Kişisel Web Sitesi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .content {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Kanka'nın Kişisel Web Sitesi</h1>
+        <p>Merhaba! Ben kanka. Burada biraz kendimden bahsediyorum.</p>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Hakkımda</h2>
+            <p>Merhaba, benim adım kanka. Arpaça öğreniyorum gramer yapısıyla Birlikte</p>
+            <h2>Projelerim</h2>
+            <ul>
+                <li><strong>Proje 1:</strong> Arpaça gramer yapısı üzerine çalışmalarım</li>
+                <li><strong>Proje 2:</strong> Dil öğrenme platformları üzerine araştırmalar</li>
+            </ul>
+            <h2>İletişim</h2>
+            <p>Email: kanka@ornek.com</p>
+            <p>Telefon: +123456789</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Kanka'nın Kişisel Web Sitesi. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
